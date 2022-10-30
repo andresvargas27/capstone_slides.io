@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="date" content="2022-10-30" />
+  <title>Data science specialization capstone project</title>
+  <style type="text/css">
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+            pre > code.sourceCode { white-space: pre; position: relative; }
+            pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+            pre > code.sourceCode > span:empty { height: 1.2em; }
+            .sourceCode { overflow: visible; }
+            code.sourceCode > span { color: inherit; text-decoration: inherit; }
+            div.sourceCode { margin: 1em 0; }
+            pre.sourceCode { margin: 0; }
+            @media screen {
+            div.sourceCode { overflow: auto; }
+            }
+            @media print {
+            pre > code.sourceCode { white-space: pre-wrap; }
+            pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+            }
+            pre.numberSource code
+              { counter-reset: source-line 0; }
+            pre.numberSource code > span
+              { position: relative; left: -4em; counter-increment: source-line; }
+            pre.numberSource code > span > a:first-child::before
+              { content: counter(source-line);
+                position: relative; left: -1em; text-align: right; vertical-align: baseline;
+                border: none; display: inline-block;
+                -webkit-touch-callout: none; -webkit-user-select: none;
+                -khtml-user-select: none; -moz-user-select: none;
+                -ms-user-select: none; user-select: none;
+                padding: 0 4px; width: 4em;
+                color: #aaaaaa;
+              }
+            pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+            div.sourceCode
+              {   }
+            @media screen {
+            pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+            }
+            code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+            code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+            code span.at { color: #7d9029; } /* Attribute */
+            code span.bn { color: #40a070; } /* BaseN */
+            code span.bu { } /* BuiltIn */
+            code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+            code span.ch { color: #4070a0; } /* Char */
+            code span.cn { color: #880000; } /* Constant */
+            code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+            code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+            code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+            code span.dt { color: #902000; } /* DataType */
+            code span.dv { color: #40a070; } /* DecVal */
+            code span.er { color: #ff0000; font-weight: bold; } /* Error */
+            code span.ex { } /* Extension */
+            code span.fl { color: #40a070; } /* Float */
+            code span.fu { color: #06287e; } /* Function */
+            code span.im { } /* Import */
+            code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+            code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+            code span.op { color: #666666; } /* Operator */
+            code span.ot { color: #007020; } /* Other */
+            code span.pp { color: #bc7a00; } /* Preprocessor */
+            code span.sc { color: #4070a0; } /* SpecialChar */
+            code span.ss { color: #bb6688; } /* SpecialString */
+            code span.st { color: #4070a0; } /* String */
+            code span.va { color: #19177c; } /* Variable */
+            code span.vs { color: #4070a0; } /* VerbatimString */
+            code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+          </style>
+  <style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+  <link href="site_libs/slidy-2/styles/slidy.css" rel="stylesheet" />
+  <script src="site_libs/slidy-2/scripts/slidy.js"></script>
+  <script src="site_libs/slidy_shiny-1/slidy_shiny.js"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">Data science specialization capstone project</h1>
+  <p class="author">
+
+  </p>
+  <p class="date">2022-10-30</p>
+</div>
+<div id="description-of-the-app-and-how-to-use-it"
+class="slide section level2">
+<h1>Description of the app and how to use it</h1>
+<p>The app attempts to predict the next possible word of a sentence
+based of the user’s input.</p>
+<p>In order to use it, please insert your text in the text input box
+located at the center of the user interface.</p>
+<center>
+<div class="figure">
+<img src="Bildschirmfoto%202022-10-30%20um%2014.17.50.png" id="id"
+class="class" style="width:50.0%;height:50.0%" alt="" />
+<p class="caption"><em>User interface</em></p>
+</div>
+<center>
+<p>The app will recognize it and automatically generate a prediction for
+the next possible word.</p>
+<p>Since the model has to be trained every time the app is launched,
+please have a bit of patience if the first predicted word takes a little
+bit to load. The subsequent predictions will appear much more
+fluently.</p>
+</div>
+<div id="the-algortihm" class="slide section level2">
+<h1>The algortihm</h1>
+<p>The app uses a ‘stupid back off algorithm’ in order to predict the
+next possible word. The algorithm rank next word candidates based on a
+score. It starts with 4-gram candidates by searching the last three
+words of the user input in the 4-gram dataset. The algorithm then back
+off one n-gram - multiplying by 0.4 for each lower order n-gram we back
+off to - until it finds enough suggestions.</p>
+<p><span class="math display">\[S(wi|w_{i−1}^{i−k+1}) = \begin{cases}
+count(w^i_{i−k+1})/count(w^{i−1}_{i−k+1})  &amp; \text{if
+$count(w_{i−k+1}^i)&gt;0$} \\
+λS(w_i|w^{i−1}_{i−k+2}) &amp; \text{otherwise}
+\end{cases}\]</span></p>
+<p>With a lambda value empirically set to 0.4.</p>
+</div>
+<div id="implementation-of-the-model-in-r" class="slide section level2">
+<h1>Implementation of the model in R</h1>
+<p>Given the training corpus, the workflow for building the
+text-predictor consists of the following steps:</p>
+<ul>
+<li>Preprocessing: Apply some transformations to the training corpus
+before k-gram extraction.</li>
+<li>Sentence tokenization. Split the training corpus into n-grams</li>
+<li>Extract k-gram frequencies. These are the building blocks for any
+n-gram language model.</li>
+<li>Train the text predictor. Build a prediction function f, which takes
+some text input and returns as output a next-word prediction (or more
+than one, ordered by decreasing probability).</li>
+</ul>
+<p>For implementing the stupid back off prediction function in R, the
+sbo package by Valerio Gherardi will be used. It provides utilities for
+building and evaluating next-word prediction functions based on Stupid
+Back-off N-gram models.</p>
+</div>
+<div id="the-prediction-function" class="slide section level2">
+<h1>The prediction function</h1>
+<p>The prediction function from the sbo package contains following
+arguments and is the heart of the app:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sbo_predictor</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> object,  <span class="co">#The training corpus used to train the text predictor.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a> N ,  <span class="co">#The order N of the N-gram model</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a> dict ,  <span class="co">#The model dictionary</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a> <span class="at">.preprocess =</span> identity, <span class="co"># The function used in corpus preprocessing</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> <span class="at">EOS =</span> <span class="st">&quot;&quot;</span>,  <span class="co">#End-Of-Sentence characters employed for sentence tokenization</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> <span class="at">lambda =</span> <span class="fl">0.4</span>, <span class="co">#Back-off penalization in SBO algorithm</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> <span class="at">L =</span> 3L,  <span class="co">#Number of predictions for input</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> <span class="at">filtered =</span> <span class="st">&quot;&quot;</span> <span class="co">#Words to exclude from next-word predictions</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+</html>

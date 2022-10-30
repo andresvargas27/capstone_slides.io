@@ -1,0 +1,7 @@
+name: "capstone_project"
+output_dir: "."
+navbar:
+  title: "Data science specialization capstone project"
+  left:
+    - text: "Home"
+      href: index.html
